@@ -1,0 +1,17 @@
+
+
+.header{
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.header .search-form{
+    position: relative;
+}
+
+.search-button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: -110% -50%;
+}

@@ -1,0 +1,25 @@
+body {
+  overscroll-behavior-y: none;
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  min-height: 100vh;
+  
+}
+
+.category-link{
+  color: #000;
+  text-decoration: none; /* Remove underline */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
